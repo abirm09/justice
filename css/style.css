@@ -11,14 +11,29 @@
         font-family: 'Poppins', sans-serif;
     }
 
-    .btn-cs-primaty {
+    .btn-cs-primary {
         color: #fff;
         background: var(--clr-cs-primary);
         border: 2px solid var(--clr-cs-primary);
     }
 
-    .btn-cs-primaty:hover {
+    .btn-cs-primary:hover {
         background: none;
         color: #000;
         border: 2px solid var(--clr-cs-primary);
+        background-color: #fff;
     }
+
+    /*======================
+    Banner section
+======================== */
+    .banner-body {
+        background-image: url("../asset/images/banner.png"), linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
+
+    /* =========================
+            hero section
+    ============================*/
