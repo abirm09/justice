@@ -24,16 +24,10 @@
         background-color: #fff;
     }
 
-    /*======================
-    Banner section
-======================== */
+    /*Banner section*/
     .banner-body {
         background-image: url("../asset/images/banner.png"), linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
     }
-
-    /* =========================
-            hero section
-    ============================*/
