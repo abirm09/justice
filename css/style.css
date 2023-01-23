@@ -1,0 +1,24 @@
+    /*cs means custom*/
+    :root {
+        --clr-cs-primary: #B68C5A;
+    }
+
+    .ff-eb {
+        font-family: 'EB Garamond', serif;
+    }
+
+    .ff-poppins {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .btn-cs-primaty {
+        color: #fff;
+        background: var(--clr-cs-primary);
+        border: 2px solid var(--clr-cs-primary);
+    }
+
+    .btn-cs-primaty:hover {
+        background: none;
+        color: #000;
+        border: 2px solid var(--clr-cs-primary);
+    }
