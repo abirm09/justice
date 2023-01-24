@@ -36,7 +36,3 @@
     .carousel-item>img {
         filter: brightness(50%);
     }
-
-    .carousel-caption {
-        /* bottom: 50%; */
-    }
