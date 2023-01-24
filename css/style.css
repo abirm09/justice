@@ -35,4 +35,11 @@
     /* Client feedback */
     .carousel-item>img {
         filter: brightness(50%);
+        height: 100%;
+    }
+
+    @media screen and (max-width:576px) {
+        .carousel-item {
+            height: 400px;
+        }
     }
